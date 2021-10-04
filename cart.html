@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./img/pngtree-mobile-icon-isolated-on-background-png-image_1901330-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="header-top">
+                    <div class="location">
+                        <p class="location-name">Bạn đang xem giá, tồn kho tại:</p>
+                        <div class="location-dropdown">
+                            <div class="loction-dropdown-list">
+                                <select class="location_list">
+                                    <option value="1" selected >Hà Nội</option>
+                                    <option value="2"  >Đà Nẵng</option>
+                                    <option value="3"  >TP Hồ Chí Minh</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotline">
+                        <p>Hotline HN: 0969.120.120 - SG: 0965.123.123 - ĐN: 096.123.9797 - CSKH Online 037.462.9999 - 096.539.7966</p>
+                    </div>
+                    <div class="logs">
+                        <ul class="logs-list">
+                            <li class="logs-item">
+                                <a href="" class="logs-item-link">Tra cứu bảo hành</a>
+                            </li>
+                            <li class="logs-item">
+                                <a href="./auth.html" class="logs-item-link">Đăng nhập/Đăng ký</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container"> 
+                    <div class="header-main-list">
+                        <div class="logo">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwngzkYD8O2gz-sMm2ZFuzW2JGXwsv1-HinnP5t0Dtg=s900-c-k-c0x00ffffff-no-rj" alt="" class="logo-img">
+                            <span>MC CITY</span>
+                        </div>
+                        <div class="search">
+                            <input type="text" placeholder="Tìm kiếm sản phẩm..." class="search-input">
+                            <button class="btn-search">Tìm</button>
+                        </div>
+                        <ul class="product-list">
+                            <li class="product-item">
+                                <a href="./index.html" class="product-link">
+                                    <img src="./img/pngtree-mobile-icon-isolated-on-background-png-image_1901330-removebg-preview.png" alt="" class="product-img">
+                                    <p class="product-name">Điện thoại</p>
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="" class="product-link">
+                                    <img src="./img/367709-removebg-preview.png" alt="" class="product-img">
+                                    <p class="product-name">Tablet</p>
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="" class="product-link">
+                                    <img src="./img/laptop-logo-png-4-removebg-preview.png" alt="" class="product-img">
+                                    <p class="product-name">Laptop</p>
+                                </a>
+                            </li>
+                            <li class="product-item">
+                                <a href="./cart.html" class="product-link">
+                                    <img src="./img/images-removebg-preview.png" alt="" class="product-img">
+                                    <p class="product-name">
+                                        Giỏ hàng
+                                        <span class="cart-quantity">1</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="btn-menu" id="btnMenu">Menu</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="cart">
+                    <h2 class="mt-4 text-center">Giỏ hàng của bạn</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" width="10%"></th>
+                                <th scope="col">Sản Phẩm</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số lượng</th>
+                                <th scope="col">Tổng tiền</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="cart-item-row">
+                            
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="footer">
+                        <div class="store">
+                            <p>Hệ Thống Cửa Hàng</p>
+                            <ul class="store-list">
+                                <li class="store-item">
+                                    <span class="store-provine">Hà Nội</span>
+                                    <p class="store-detail">
+                                        120 Thái Hà, Q. Đống Đa <br>
+                                        Điện thoại: 097.120.6688 - 0969.120.120
+                                    </p>
+                                </li>
+                                <li class="store-item">
+                                    <span class="store-provine">Đà Nẵng</span>
+                                    <p class="store-detail">
+                                        97 Hàm Nghi, Q.Thanh Khê <br>
+                                        Điện thoại: 096.123.9797 - 097.123.9797
+                                    </p>
+                                </li>
+                                <li class="store-item">
+                                    <span class="store-provine">TP HCM</span>
+                                    <p class="store-detail">
+                                        120 Thái Hà, Q. Đống Đa <br>
+                                        Điện thoại: 097.120.6688 - 0969.120.120
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="policy">
+                            <ul class="policy-list">
+                                <li class="policy-item">Chính sách bảo hành</li>
+                                <li class="policy-item">Chính sách vận chuyển</li>
+                                <li class="policy-item">Chính sách đổi trả hàng</li>
+                                <li class="policy-item">Chính sách bảo mật thông tin</li>
+                                <li class="policy-item">Hướng dẫn thanh toán</li>
+                                <li class="policy-item">Dịch vụ Ship COD Toàn quốc</li>
+                            </ul>
+                        </div>
+                        <div class="receiver-mail">
+                            <input type="text" placeholder="Nhập email.." class="mail-name">
+                            <button class="btn-send">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="modal-menu">
+                <div class="container">
+                    <div class="for-small-device" id="sm-device">
+                        <ul class="list-product-sm">
+                            <li class="product-sm-item">
+                                <a href="./index.html" class="product-sm-link">
+                                    Điện Thoại
+                                </a>
+                            </li>
+                            <li class="product-sm-item">
+                                <a href="" class="product-sm-link">
+                                    Tablet
+                                </a>
+                            </li>
+                            <li class="product-sm-item">
+                                <a href="" class="product-sm-link">
+                                    Laptop
+                                </a>
+                            </li>
+                            <li class="product-sm-item">
+                                <a href="./cart.html" class="product-sm-link">
+                                    Giỏ hàng
+                                <span class="cart-quantity-sm">1</span>
+                                </a>
+                            </li>
+                            <li class="product-sm-item">
+                                <a href="./auth.html" class="product-sm-link">
+                                    Đăng nhập
+                                </a>
+                            </li>
+                            <li class="product-sm-item">
+                                <a href="./auth.html" class="product-sm-link">
+                                    Đăng ký
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+<script src="./js/cart.js"></script>
+<script>
+    loadCartItemsFromLocalStorage();
+    changeQuantityUpdate();
+    setIconCartQuantity();
+    caculateAmountMoney();
+</script>
+</body>
+</html>
